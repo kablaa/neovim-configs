@@ -273,6 +273,7 @@ require('lazy').setup({
       -- Move to previous/next
       map('n', '<A-,>', '<Cmd>BufferPrevious<CR>', opts)
       map('n', '<A-.>', '<Cmd>BufferNext<CR>', opts)
+      map('n', '<A-c>', '<Cmd>BufferClose<CR>', opts)
       vim.g.barbar_auto_setup = false
     end,
     opts = {
